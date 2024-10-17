@@ -38,7 +38,7 @@ export default function FeedbackForm() {
 }
 
 // Pretend to send a message.
-function sendMessage(text: string) {
+function sendMessage(_text: string) {
   return new Promise(resolve => {
     setTimeout(resolve, 2000);
   });
